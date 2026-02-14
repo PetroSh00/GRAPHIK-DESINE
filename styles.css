@@ -37,7 +37,9 @@
 .project-item {
     width: 445px;
     margin-bottom: 80px;
+    font-family: Roboto, sans-serif;
 }
+
 
 .project-card {
     padding: 23px;
@@ -214,6 +216,7 @@ body {
 
 
 /* FOOTER */
+
 
 
 
