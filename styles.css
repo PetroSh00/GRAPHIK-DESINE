@@ -12,6 +12,7 @@
 .projects-section {
     padding: 120px 0;
     background-image: url(./img/projects-bg.png);
+    background-position: 100% 100%;
     background-repeat: no-repeat;
 }
 
@@ -216,6 +217,7 @@ body {
 
 
 /* FOOTER */
+
 
 
 
