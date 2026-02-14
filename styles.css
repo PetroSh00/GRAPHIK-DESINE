@@ -89,5 +89,123 @@
 }
 
 /* REVIEWS */
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  background:
+    linear-gradient(rgba(80,0,0,.85), rgba(80,0,0,.85)),
+    url(bg.jpg) center/cover no-repeat;
+}
+
+/* TITLE */
+.title {
+  font-family: Syncopate, sans-serif;
+  color: #fff;
+  font-size: 42px;
+  margin: 70px 0 90px 60px;
+}
+
+/* LAYOUT */
+.items {
+  position: relative;
+  max-width: 1200px;
+  height: 520px;
+  margin: auto;
+}
+
+.item {
+  position: absolute;
+  text-align: center;
+}
+
+/* POSITIONS */
+.left  { top: 0; left: 0; }
+.right { top: 0; right: 0; }
+.center {
+  top: 190px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* AVATAR */
+.avatar {
+  position: relative;
+  width: 170px;
+  height: 170px;
+  margin: auto;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.avatar.big {
+  width: 210px;
+  height: 210px;
+}
+
+.avatar::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  filter: blur(1px);
+}
+
+.avatar.red::before   { background: radial-gradient(#ff3b3b, #7a0000); }
+.avatar.dark::before  { background: radial-gradient(#b30000, #3b0000); }
+.avatar.light::before { background: radial-gradient(#ffd3d3, #b96b6b); }
+
+.avatar img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+/* CARD */
+.card {
+  margin-top: -20px;
+  padding: 18px 26px;
+  border-radius: 40px;
+  font-size: 13px;
+  line-height: 1.45;
+  border: 2px solid rgba(0,0,0,.35);
+}
+
+.card strong {
+  display: block;
+  margin-bottom: 6px;
+}
+
+/* LINE */
+.line {
+  display: block;
+  width: 60px;
+  height: 1px;
+  background: rgba(255,255,255,.6);
+  margin: 6px auto 10px;
+}
+
+/* COLORS */
+.card.red   { background: #ff2a2a; color: #000; }
+.card.light { background: #ffd1d1; color: #000; }
+.card.dark  { background: #6b0000; color: #fff; }
+
+/* MOBILE */
+@media (max-width: 900px) {
+  .items {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+  }
+  .item { position: static; transform: none; }
+  .title { text-align: center; margin-left: 0; }
+}
+
 
 /* FOOTER */
+
