@@ -17,8 +17,10 @@
 }
 
 .container {
-    width: 1200px;
-    margin: 0 auto;
+  max-width: 1325px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .title {
@@ -217,6 +219,7 @@ body {
 
 
 /* FOOTER */
+
 
 
 
