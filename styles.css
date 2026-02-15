@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-image: url("image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-image: url("img/1.png");
+    height: 60px;
+}
+
+.menu a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #dcdcdc;
+    font-size: 18px;
+}
+
+.menu a:hover {
+    color: #FF0000;
+}
+
+button {
+    background-color: #FF0000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    padding: 12px 35px;
+    border-radius: 50px;
+    width: 150px;
+    height: 45px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+}
+
+.logo {
+    color: #FF0000;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.divider {
+    width: 2px;
+    height: 80px;
+    background: #FF0000;
+    margin: 0 40px;
+}
+
+.menu h3 {
+    color: #FF0000;
+    margin: 0 0 10px 0;
+    letter-spacing: 2px;
+}
+
+.menu p {
+    margin: 5px 0;
+    color: #ccc;
+}
+
+.contact {
+    text-align: right;
+}
+
+.contact p {
+    margin: 5px 0;
+    color: #ccc;
+}
