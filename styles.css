@@ -1,9 +1,4 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    color: white;
-}
-
+/* ----------------------------Header  */
 .header {
     display: flex;
     align-items: center;
@@ -81,6 +76,7 @@ button {
     margin: 5px 0;
     color: #ccc;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -89,7 +85,7 @@ button {
 }
 
 body {
-    background-image: url(images/background.png);
+    background-image: url(./img/head-bg.png);
 }
 
 .header-bottom {
@@ -171,6 +167,8 @@ body {
 
 .dot.left {
     transform: translate(-230px, 80px);
+    width: 74px;
+    height: 74px;
 }
 
 .dot.right {
@@ -282,6 +280,7 @@ body {
     color: #BB9292;
     font-size: 14px;
 }
+
 * {
     box-sizing: border-box;
 }
@@ -435,6 +434,7 @@ body {
         margin-left: 0;
     }
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -445,8 +445,7 @@ body {
     background: #111;
     font-family: Arial, sans-serif;
 }
-
-/* ================= MY TASK ================= */
+/* ---------------------------------------------my task */
 .my-task {
     background-image: url(./img/my_task-bg.png);
     padding: 100px 0;
@@ -580,88 +579,7 @@ body {
     background: #f3d2d2;
     color: #8b0000;
 }
-
-/* ================= PROJECTS ================= */
-.projects-section {
-    background-image: url(./img/projects-bg.png);
-    color: #e4cfcf;
-}
-
-.container {
-    max-width: 1325px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-
-.title {
-    font-family: Syncopate, sans-serif;
-    font-size: 64px;
-    font-weight: 800;
-    margin-bottom: 80px;
-}
-
-.projects-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 80px 40px;
-}
-
-.project-item {
-    width: 445px;
-    font-family: Roboto, sans-serif;
-}
-
-.project-card {
-    padding: 23px;
-    border-radius: 20px;
-    background: linear-gradient(180deg, #ff1a1a 0%, #8b0000 100%);
-    box-shadow:
-        0 0 30px rgba(255, 0, 0, .6),
-        0 15px 40px rgba(0, 0, 0, .6);
-    margin-bottom: 20px;
-    transition: .4s;
-}
-
-.project-card img {
-    width: 100%;
-    border-radius: 14px;
-    display: block;
-}
-
-.project-card:hover {
-    transform: translateY(-10px);
-}
-
-.project-item h3 {
-    color: #fff;
-    font-size: 20px;
-}
-
-.project-item a {
-    color: #999;
-    font-size: 14px;
-    text-decoration: none;
-}
-
-.project-item a:hover {
-    color: #e30707;
-}
-
-.projects-button {
-    text-align: center;
-    margin-top: 60px;
-}
-
-.projects-button a {
-    background: #e30707;
-    padding: 15px 50px;
-    border-radius: 40px;
-    color: white;
-    text-decoration: none;
-}
-
-/* ==================== PROJECTS ==================== */
-
+/*------------------------------------- projects */
 * {
     margin: 0;
     padding: 0;
@@ -757,170 +675,174 @@ body {
     color: white;
     text-decoration: none;
 }
+
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-  background: #000;
+    font-family: 'Roboto', sans-serif;
+    background: #000;
 }
-
-
-/* ================= REVIEWS ================= */
-
+/* Reviews */
 .reviews {
-  background:
-    url("img/red.png") center/cover no-repeat;
+    background:
+        url("img/red.png") center/cover no-repeat;
 
-  padding: 120px 0 180px;
+    padding: 120px 0 180px;
 }
 
 .reviews-title {
-  font-family: 'Syncopate', sans-serif;
-  font-size: 48px;
-  color: #fff;
-  margin-left: 120px;
-  margin-bottom: 100px;
-  letter-spacing: 4px;
+    font-family: 'Syncopate', sans-serif;
+    font-size: 48px;
+    color: #fff;
+    margin-left: 120px;
+    margin-bottom: 100px;
+    letter-spacing: 4px;
 }
 
 .reviews-list {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 140px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 140px;
 }
 
 .review {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .review.center {
-  margin-top: 80px;
+    margin-top: 80px;
 }
 
 
 /* ===== AVATAR ===== */
 
 .avatar {
-  width: 170px;
-  height: 170px;
-  border-radius: 50%;
-  overflow: hidden;
-  margin-bottom: -40px;
-  box-shadow: 0 0 40px rgba(0,0,0,0.6);
-  z-index: 2;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: -40px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.6);
+    z-index: 2;
 }
 
 .avatar.large {
-  width: 220px;
-  height: 220px;
+    width: 220px;
+    height: 220px;
 }
 
 .avatar img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 
 /* ===== REVIEW CARD ===== */
 
 .review-card {
-  padding: 40px 60px;
-  border-radius: 120px;
-  max-width: 330px;
-  text-align: center;
+    padding: 40px 60px;
+    border-radius: 120px;
+    max-width: 330px;
+    text-align: center;
 }
 
 .review-card h3 {
-  margin-bottom: 15px;
-  font-size: 18px;
+    margin-bottom: 15px;
+    font-size: 18px;
 }
 
 .review-card p {
-  font-size: 14px;
-  line-height: 1.6;
+    font-size: 14px;
+    line-height: 1.6;
 }
 
 /* colors */
 
 .review-card.red {
-  background: #ff1a1a;
-  color: #fff;
+    background: #ff1a1a;
+    color: #fff;
 }
 
 .review-card.dark {
-  background: #1e1e1e;
-  color: #fff;
+    background: #1e1e1e;
+    color: #fff;
 }
 
 .review-card.light {
-  background: #f2f2f2;
-  color: #000;
+    background: #f2f2f2;
+    color: #000;
 }
 
 
 
-/* ================= CTA ================= */
+/* ================= CONTACT ================= */
 
-.cta-section {
-  background:
-    url("img/black.png") center/cover no-repeat;
-
-  padding: 120px 0;
-  display: flex;
-  justify-content: center;
+.contact-section {
+    background: url("img/black.png") center/cover no-repeat;
+    padding: 120px 0;
+    display: flex;
+    justify-content: center;
 }
 
+.contact-box {
+    background: url("img/redplay.png") center/cover no-repeat;
+    padding: 80px 100px;
+    border-radius: 30px;
+    max-width: 1100px;
+    width: 90%;
 
-.cta-box {
-  background:
-    url("img/redplay.png") center/cover;
-
-  padding: 60px 100px;
-  border-radius: 30px;
-  max-width: 1100px;
-  width: 90%;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.cta-text {
-  max-width: 600px;
-  color: #fff;
+.contact-text {
+    max-width: 600px;
+    color: #fff;
 }
 
-.cta-text h2 {
-  font-family: 'Syncopate', sans-serif;
-  font-size: 28px;
-  margin-bottom: 20px;
+.contact-text h2 {
+    font-family: 'Syncopate', sans-serif;
+    font-size: 36px;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
 }
 
-.cta-text p {
-  font-size: 14px;
-  opacity: 0.9;
+.contact-text p {
+    font-size: 15px;
+    opacity: 0.9;
 }
 
-.cta-button {
-  background: #fff;
-  color: #000;
-  padding: 15px 40px;
-  border-radius: 50px;
-  text-decoration: none;
-  font-weight: 600;
-  transition: 0.3s;
+.contact-button {
+    background: #fff;
+    color: #000;
+    padding: 18px 50px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
 }
 
-.cta-button:hover {
-  transform: scale(1.05);
+.contact-button:hover {
+    transform: scale(1.05);
 }
 
+.contact-image img {
+    max-width: 250px;
+}
+
+@media (max-width: 1024px) {
+    .contact-image {
+        order: -1;
+    }
+}
+/* Footer */
