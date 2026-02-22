@@ -415,36 +415,6 @@ body {
     color: #fff;
 }
 
-/* MOBILE */
-@media (max-width: 900px) {
-    .items {
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        gap: 80px;
-    }
-
-    .item {
-        position: static;
-        transform: none;
-    }
-
-    .title {
-        text-align: center;
-        margin-left: 0;
-    }
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background: #111;
-    font-family: Arial, sans-serif;
-}
 /* ---------------------------------------------my task */
 .my-task {
     background-image: url(./img/my_task-bg.png);
@@ -840,9 +810,38 @@ body {
     max-width: 250px;
 }
 
-@media (max-width: 1024px) {
-    .contact-image {
-        order: -1;
+/* Footer */
+
+
+
+
+/* MOBILE */
+@media (max-width: 900px) {
+    .items {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+    }
+
+    .item {
+        position: static;
+        transform: none;
+    }
+
+    .title {
+        text-align: center;
+        margin-left: 0;
     }
 }
-/* Footer */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #111;
+    font-family: Arial, sans-serif;
+}
