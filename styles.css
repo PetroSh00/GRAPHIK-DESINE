@@ -3,7 +3,7 @@ body {
   font-family: Arial, sans-serif;
   color: white;
 }
-
+/* ================= HEADER ================= */
 .header {
   display: flex;
   align-items: center;
@@ -172,8 +172,8 @@ body {
 
 .dot.left {
   transform: translate(-230px, 80px);
-  width: 14px;
-  height: 14px;
+  width: 74px;
+  height: 74px;
 }
 
 .dot.right {
@@ -587,85 +587,6 @@ body {
 }
 
 /* ================= PROJECTS ================= */
-.projects-section {
-  background-image: url(./img/projects-bg.png);
-  color: #e4cfcf;
-}
-
-.container {
-  max-width: 1325px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
-.title {
-  font-family: Syncopate, sans-serif;
-  font-size: 64px;
-  font-weight: 800;
-  margin-bottom: 80px;
-}
-
-.projects-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 80px 40px;
-}
-
-.project-item {
-  width: 445px;
-  font-family: Roboto, sans-serif;
-}
-
-.project-card {
-  padding: 23px;
-  border-radius: 20px;
-  background: linear-gradient(180deg, #ff1a1a 0%, #8b0000 100%);
-  box-shadow:
-    0 0 30px rgba(255, 0, 0, .6),
-    0 15px 40px rgba(0, 0, 0, .6);
-  margin-bottom: 20px;
-  transition: .4s;
-}
-
-.project-card img {
-  width: 100%;
-  border-radius: 14px;
-  display: block;
-}
-
-.project-card:hover {
-  transform: translateY(-10px);
-}
-
-.project-item h3 {
-  color: #fff;
-  font-size: 20px;
-}
-
-.project-item a {
-  color: #999;
-  font-size: 14px;
-  text-decoration: none;
-}
-
-.project-item a:hover {
-  color: #e30707;
-}
-
-.projects-button {
-  text-align: center;
-  margin-top: 60px;
-}
-
-.projects-button a {
-  background: #e30707;
-  padding: 15px 50px;
-  border-radius: 40px;
-  color: white;
-  text-decoration: none;
-}
-
-/* ==================== PROJECTS ==================== */
 
 * {
   margin: 0;
@@ -812,7 +733,7 @@ body {
 }
 
 
-/* ===== AVATAR ===== */
+/* AVATAR */
 
 .avatar {
   width: 170px;
@@ -836,7 +757,7 @@ body {
 }
 
 
-/* ===== REVIEW CARD ===== */
+/* REVIEW CARD */
 
 .review-card {
   padding: 40px 60px;
